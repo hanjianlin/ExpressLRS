@@ -59,4 +59,5 @@ jobs:
       with:
         name: ExpressLRS-${{ env.GITHUB_REF_SLUG_URL }}-${{ github.run_number }}
         path: ~/artifcats/**/*.bin
+        path: ~/artifcats/**/*.elrs
       continue-on-error: true
